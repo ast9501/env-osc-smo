@@ -1,0 +1,4 @@
+localrc
+.teraform/*
+.terraform*
+*.old

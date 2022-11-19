@@ -1,0 +1,5 @@
+resource "openstack_compute_keypair_v2" "osc-keypair" {
+  name       = "osc-keypair"
+  // insert your own public key
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCeXBlZ7scPQSDNld9gGYvwtfFrhZ4Flk0CP0z5yNYmE5CQo6Rdvq6rrg/k/e9I6056tQMZcKyTxhJ4ikTaenm76c1GMe34fw+eQp0wE6hdwCmQ98whS6ueRdLOoR04331DMCNvUPhjPGo0KqVSRFrtF7hwrvFFk10TMR6ToQLLdRiXwfsw3QXxyNRyqgwZ++9gJUHTKeJ9gJDL0NqTs9tqzR38AvTlcRXdEJRaTQuNpUYBgEZE9UBTQt6lzw4rnM0C5sTz5Txg0T0ghcSUfkY0B/MThFR35VVSUibePPelU90DIHMlFfLrr9jaJi5W0trxxQMw6Pabqorr67fCUEv1MadaISiDROJ/tsd4qqegEoMhsGEJ+1nKkot72vMRrtSGKHjuh+kWecXsNgzvJgQwHiiKNoB0BTRq5BUfEjb3PD6kcmcsyztFDiVYtZ3vGheHQwII4NbPPjoBSKwpPB/Z+SBCrAjXlOrElpxQEJgWg0lNAK3O7Q7nApHTmMETbb8= winlab@winlab-desktop"
+}
